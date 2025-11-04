@@ -4,8 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 // Render-ready API configuration
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000";
-
+const API_BASE = "https://ex8-2-k1ay.onrender.com";
 function App() {
   const [rooms, setRooms] = useState([]);
   const [bookings, setBookings] = useState([]);
