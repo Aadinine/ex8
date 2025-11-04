@@ -1,0 +1,46 @@
+/* Force everything to center */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Center all containers */
+.container-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+/* Center cards */
+.card-center {
+    margin: 0 auto;
+    float: none;
+}
+
+/* Center table */
+.table-center {
+    margin: 0 auto;
+}
+
+/* Center all text */
+.text-center {
+    text-align: center !important;
+}
+
+/* Center form elements */
+.form-center {
+    text-align: center;
+    margin: 0 auto;
+}
